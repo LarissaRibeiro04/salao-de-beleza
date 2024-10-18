@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Bodoni FLF;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #f4f4f4;
+    background-color:#FFE4E1;
     text-align: center;
     padding: 20px;
 }
@@ -15,8 +15,7 @@ header {
 }
 
 h1, h2 {
-    color: #333;
-}
+    color: #E6E6FA
 
 section {
     padding: 20px;
@@ -48,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color:#A2C2E2;
 }
 
 footer {
