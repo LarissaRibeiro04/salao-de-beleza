@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    color: #333;
+    color: #d89595;
 }
 
 header {
-    background-color: #343a40;
+    background-color: #d98dec;
     color: white;
     padding: 20px;
     text-align: center;
@@ -19,11 +19,11 @@ h1 {
 
 section {
     padding: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ddb4e0;
 }
 
 h2 {
-    color: #007bff;
+    color: #d894d8;
 }
 
 form {
