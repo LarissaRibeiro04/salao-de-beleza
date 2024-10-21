@@ -1,63 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #d89595;
-}
-
-header {
-    background-color: #d98dec;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-    border-bottom: 1px solid #ddb4e0;
-}
-
-h2 {
-    color: #d894d8;
-}
-
-form {
+    background-color: black;
     display: flex;
     flex-direction: column;
-}
+    gap: 100px;
+    align-items: center;
+    height: 100vh;
 
-label {
-    margin: 5px 0;
 }
-
-input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
+.container {
+    background-color: blue;
+    height: 220px;
+    width: 400px;
+    border-radius: 8px;
     cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 500ms ease-in-out;
 }
 
-button:hover {
-    background-color: #0056b3;
+.linhas {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    margin-top: 20px;
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #343a40;
+.materia {  
+    border-radius: 10px;
+    border: solid 2px white;
+    margin-left: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    backface-visibility: hidden;
+}
+
+.namemateria {
+    padding: 5px;
+    font-weight: bold;
     color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+.question {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+backface-visibility: hidden;
+width: 100%;
+height: 50%;
+}
+
+
+.pquestion {
+    font-size: 26px;
+    color: white;
+   
+}
+
+.container:hover {
+    transform: rotateY(180deg);
+   
+}
+.container:hover .resposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resposta {
+display: flex;
+transform: rotateY(180deg);
+margin-left: -10px;
+margin-top: -110px;
+}
+
+.presposta {
+    color: cyan;
+    font-size: 26px;
+}
+
+.resposta,
+.question {
+    backface-visibility: hidden;
+
 }
