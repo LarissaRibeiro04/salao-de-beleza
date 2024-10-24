@@ -8,7 +8,7 @@ body {
 
 }
 .container {
-    background-color: blue;
+    background-color: #E0B0FF;
     height: 220px;
     width: 400px;
     border-radius: 8px;
@@ -39,7 +39,7 @@ body {
 .namemateria {
     padding: 5px;
     font-weight: bold;
-    color: white;
+    color: #E1BEE7;
     margin: 0;
     font-size: 18px;
 }
@@ -79,7 +79,7 @@ margin-top: -110px;
 }
 
 .presposta {
-    color: cyan;
+    color: #FFC0CB;
     font-size: 26px;
 }
 
